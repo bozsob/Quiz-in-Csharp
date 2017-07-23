@@ -11,7 +11,7 @@ namespace Demo_quiz
 
         public void OnTimeChanged(object sender, EventArgs e)
         {
-            Console.WriteLine("Current date: " + DateTime.Now);
+            Console.WriteLine("Current date: " + DateTime.Now + "\n");
         }
     }
 }
